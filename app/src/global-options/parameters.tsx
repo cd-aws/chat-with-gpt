@@ -48,12 +48,10 @@ export const parameterOptions: OptionGroup = {
                         label: "GPT 4 Snapshot (June 13, 2023)",
                         value: "gpt-4-0613",
                     },
-          
                     {
                         label: "GPT 4 32k Snapshot (June 13, 2023)",
                         value: "gpt-4-32k-0613",
                     },
-  
                     {
                         label: "GPT 3.5 Turbo Snapshot (June 13, 2023)",
                         value: "gpt-3.5-turbo-0613",
@@ -61,6 +59,22 @@ export const parameterOptions: OptionGroup = {
                     {
                         label: "GPT 3.5 Turbo 16k Snapshot (June 13, 2023)",
                         value: "gpt-3.5-turbo-16k-0613",
+                    },
+                    {
+                        label: "OpenAI o1-preview",
+                        value: "o1-preview",
+                    },
+                    {
+                        label: "OpenAI o1-mini",
+                        value: "o1-mini",
+                    },
+                    {
+                        label: "GPT-4o (Updated September 2024)",
+                        value: "gpt-4o",
+                    },
+                    {
+                        label: "GPT-4o mini (July 18, 2024)",
+                        value: "gpt-4o-mini",
                     },
                 ],
             }),
